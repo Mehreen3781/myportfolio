@@ -126,11 +126,11 @@ html {
 
 .hero-content h2 {
     animation: fadeInUp 1s ease 0.2s both;
-    color:  #8b5cf6;;
+    
 
 }
 .hero-title {
-  color: #8b5cf6;
+  color: #6366f1;
   animation: fadeInUp 1s ease 0.2s both;
 }
 
