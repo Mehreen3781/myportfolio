@@ -131,13 +131,15 @@ html {
 
 }
 .hero-title {
-  color: #6366f1;
+  color: #8b5cf6;
+  
   animation: fadeInUp 1s ease 0.2s both;
 }
 
 
 .hero-content p {
     animation: fadeInUp 1s ease 0.4s both;
+    color:  #8b5cf6;;
 }
 
 .hero-buttons {
