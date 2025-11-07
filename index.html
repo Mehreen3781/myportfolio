@@ -1,25 +1,3 @@
-<!-- <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maham Ahmed - Frontend Designer & Developer</title>
-
-    < Bootstrap CSS 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
- Font Awesome
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    Google Fonts
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-        rel="stylesheet">
-    Custom CSS 
-    <link rel="stylesheet" href="styles.css">
-</head>--->
- 
-
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -65,7 +43,10 @@
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
              
-            <a class="navbar-brand fw-bold" href="#home"><h1>Maham Ahmed</h1></a>
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="#home">
+                <img src="maham-logo.png" alt="Maham Ahmed Logo" class="navbar-logo me-2">
+                <span>Maham Ahmed</span>
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -74,7 +55,10 @@
                     <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#video">Video</a></li>
                     <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#graphic-design">Graphics</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#social-media">Social Media</a></li>
                     <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                     <!-- <li class="nav-item"><a class="nav-link" href="#cv">CV</a></li> -->
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -130,26 +114,21 @@
   <!-- About Section -->
   <section id="about" class="py-5">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto text-center">
-          <h2 class="section-title mb-5">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          <div class="about-content text-center">
+            <h2 class="section-title mb-5">About Me</h2>
           <p class="lead mb-4">
-            I'm a passionate <strong>Web Designer</strong>, <strong>Frontend Developer</strong>, and <strong>Graphic
-              Designer</strong> who creates modern, user-friendly, and visually stunning websites that help brands grow
-            online. I also specialize in <strong>Social Media Page Optimization</strong> and <strong>Content
-              Handling</strong>, helping businesses build an engaging digital presence.
+            I'm a passionate <strong>Web Designer</strong>, <strong>Frontend Developer</strong>, and <strong>Graphic Designer</strong> who creates modern, user-friendly, and visually stunning websites that help brands grow online.
           </p>
           <p class="mb-4">
-            With expertise in HTML, CSS, Bootstrap, JavaScript, Git, and graphic tools like Canva and Adobe Illustrator,
-            I combine design and development to craft responsive and high-performing web experiences. My approach blends
-            creativity with functionality, ensuring every website is beautiful, fast, and SEO-friendly.
+            I specialize in <strong>Social Media Page Optimization</strong> and <strong>Content Handling</strong>, helping businesses build an engaging digital presence. With expertise in HTML, CSS, Bootstrap, JavaScript, Git, and graphic tools like Canva and Adobe Illustrator, I combine design and development to craft responsive and high-performing web experiences.
           </p>
           <p>
             Whether you need a website redesign, social media brand management, or complete web development from scratch
             — I’ll bring your vision to life with innovation and precision.
           </p>
-        </div>
-       </div> 
+        
     </div>
   </section> 
 
@@ -331,138 +310,591 @@
     </div>
   </section>
 
-
-
-
-        <!-- Projects Section -->
-    <section id="projects">
-        <div class="container text-center mb-6">
-            <h2 class="section-title mb-6">My Clients & Projects</h2>
-            <div class="row g-4">
-                <div class="col-lg-4 col-md-6">
-                    <div class="project-card mb-6">
-                        <div class="project-logo">
-                            <img src="trendy-tribes-poster.jpg" alt="Trendy Tribes" class="client-logo" >
-                        </div>
-                        <div class="project-content text-center">
-                                                          <h4>Trendy Tribes</h4>
-                            <p>Online Reseller Brand - A modern e-commerce platform with clean design and seamless user experience.</p>
-                            <a href="https://trendytribes.netlify.app/" target="_blank" class="btn btn-outline-primary">
-        <i class="fas fa-external-link-alt"></i> Live Site
-    </a>
-                        </div>
-                    </div>
+    <!-- Video Section -->
+    <section id="video" class="py-5 bg-light">
+        <!-- Floating Particles -->
+        <div class="floating-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">🎬 Watch My Work in Action</h2>
+                    <p class="lead">See how I bring creative ideas to life through my projects and designs.</p>
                 </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="project-card">
-                        <div class="project-logo">
-                            <img src="awaisagency.jpg" alt="AwaisAgency8" class="client-logo">
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="video-container">
+                        <div class="video-wrapper">
+                            <!-- Loading Animation -->
+                            <div class="video-loading">
+                                <div class="loading-spinner"></div>
+                                <p>Loading Amazing Content...</p>
+                            </div>
+                            
+                            <!-- Play Button Overlay -->
+                            <div class="video-play-overlay">
+                                <div class="play-button">
+                                    <i class="fas fa-play"></i>
+                                </div>
+                                <div class="video-title">
+                                    <h5>🎬 My Creative Portfolio</h5>
+                                    <p>Watch my design journey</p>
+                                </div>
+                            </div>
+                            
+                            <!-- 
+                            📹 VIDEO SETUP INSTRUCTIONS:
+                            
+                            OPTION 1 - Local Video File:
+                            1. Add your video file to the project folder (e.g., "my-portfolio-video.mp4")
+                            2. Replace "your-advertisement-video.mp4" with your actual filename
+                            3. Update the poster image if needed
+                            
+                            OPTION 2 - YouTube Video:
+                            1. Comment out the <video> tag below
+                            2. Uncomment the YouTube iframe section
+                            3. Replace "YOUR_VIDEO_ID" with your YouTube video ID
+                            
+                            OPTION 3 - Vimeo Video:
+                            Replace YouTube iframe src with: https://player.vimeo.com/video/YOUR_VIMEO_ID
+                            -->
+                            <video 
+                                class="video-player" 
+                                controls 
+                                poster="mehreen.jfif"
+                                preload="metadata">
+                                <source src="your-advertisement-video.mp4" type="video/mp4">
+                                <source src="your-advertisement-video.webm" type="video/webm">
+                                Your browser does not support the video tag.
+                            </video>
+                            
+                            <!-- Alternative: YouTube Embed (uncomment and replace VIDEO_ID) -->
+                            <!--
+                            <iframe 
+                                class="youtube-video"
+                                src="https://www.youtube.com/embed/YOUR_VIDEO_ID?rel=0&showinfo=0&modestbranding=1" 
+                                title="Maham Ahmed - Portfolio Video"
+                                frameborder="0" 
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                                allowfullscreen>
+                            </iframe>
+                            -->
                         </div>
-                        <div class="project-content text-center">
-                            <h4>AwaisAgency8</h4>
-                            <p>Digital Marketing Agency - Professional website showcasing services with modern animations and responsive design.</p>
-                            <a href="https://awaisagancy8tm.netlify.app/" target="_blank" class="btn btn-outline-primary">
-        <i class="fas fa-external-link-alt"></i> Live Site
-    </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6">
-                    <div class="project-card">
-                        <div class="project-logo">
-                            <img src="moomal-beauty-salon-logo.jpg.jpg" alt="Moomal Beauty" class="client-logo">
-                        </div>
-                        <div class="project-content text-center">
-                            <h4>Moomal Beauty Salon</h4>
-                            <p>Beauty & Training Centre - Elegant website design for beauty services with booking functionality.</p>
-                            <a href="https://moomalsalon.netlify.app/" target="_blank" class="btn btn-outline-primary" >
-        <i class="fas fa-external-link-alt"></i> Live Site
-    </a>
+                        
+                        <!-- Video Description -->
+                        <div class="video-description mt-4 text-center">
+                            <div class="description-header">
+                                <i class="fas fa-magic description-icon"></i>
+                                <h4 class="mb-3">✨ My Creative Journey</h4>
+                            </div>
+                            <p class="text-muted">
+                                Watch this video to see my design process, client testimonials, and some of my best work in web design, 
+                                graphic design, and social media management. Get inspired by the creative solutions I provide to help 
+                                businesses grow their digital presence.
+                            </p>
+                            
+                            <!-- Video Features -->
+                            <div class="video-features mt-4">
+                                <div class="feature-item">
+                                    <i class="fas fa-palette"></i>
+                                    <span>Design Process</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-users"></i>
+                                    <span>Client Stories</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-rocket"></i>
+                                    <span>Live Projects</span>
+                                </div>
+                                <div class="feature-item">
+                                    <i class="fas fa-lightbulb"></i>
+                                    <span>Creative Tips</span>
+                                </div>
+                            </div>
+                            <div class="video-stats mt-4">
+                                <div class="row g-3">
+                                    <div class="col-4">
+                                        <div class="stat-box">
+                                            <h5 class="text-primary mb-1">50+</h5>
+                                            <small class="text-muted">Projects Completed</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-box">
+                                            <h5 class="text-primary mb-1">25+</h5>
+                                            <small class="text-muted">Happy Clients</small>
+                                        </div>
+                                    </div>
+                                    <div class="col-4">
+                                        <div class="stat-box">
+                                            <h5 class="text-primary mb-1">3+</h5>
+                                            <small class="text-muted">Years Experience</small>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-<!-- ===================== Graphic Design Section ===================== -->
-<!-- <section id="graphic-design" class="py-16 bg-gray-50">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold mb-8 text-gray-800">🎨 Graphic Design Projects</h2>
-    <p class="text-gray-600 mb-10">Creative posters, logos, and visual branding for my amazing clients.</p>
 
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> -->
-      <!-- Client 1 -->
-      <!-- <div class="bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-        <img src="images/moomal-beauty-salon.jpg" alt="Moomal Beauty Salon" class="w-full h-56 object-cover">
-        <div class="p-4">
-          <h3 class="font-semibold text-xl">Moomal Beauty Salon</h3>
-          <p class="text-gray-500 text-sm mt-1">Poster & Logo Design</p>
+        <!-- Projects Section -->
+    <section id="projects" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">🚀 My Clients & Projects</h2>
+                    <p class="lead">Showcasing my recent work and successful collaborations.</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Client 1: Trendy Tribes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-logo">
+                            <img src="trendy-tribes-poster.jpg" alt="Trendy Tribes" class="client-logo-project">
+                        </div>
+                        <div class="project-content text-center">
+                            <h4>Trendy Tribes</h4>
+                            <p class="project-details">Online Reseller Brand - A modern e-commerce platform with clean design and seamless user experience. Built with responsive design and optimized performance.</p>
+                            <div class="project-buttons">
+                                <a href="https://trendytribes.netlify.app/" target="_blank" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-external-link-alt"></i> Live Site
+                                </a>
+                                <a href="https://github.com/Mehreen3781" target="_blank" class="btn btn-primary">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Client 2: AwaisAgency8 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-logo">
+                            <img src="awaisagency.jpg" alt="AwaisAgency8" class="client-logo-project">
+                        </div>
+                        <div class="project-content text-center">
+                            <h4>AwaisAgency8</h4>
+                            <p class="project-details">Digital Marketing Agency - Professional website showcasing services with modern animations and responsive design. Features interactive elements and smooth transitions.</p>
+                            <div class="project-buttons">
+                                <a href="https://awaisagancy8tm.netlify.app/" target="_blank" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-external-link-alt"></i> Live Site
+                                </a>
+                                <a href="https://github.com/Mehreen3781" target="_blank" class="btn btn-primary">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Client 3: Moomal Beauty Salon -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="project-card">
+                        <div class="project-logo">
+                            <img src="moomal-beauty-salon-logo.jpg.jpg" alt="Moomal Beauty" class="client-logo-project">
+                        </div>
+                        <div class="project-content text-center">
+                            <h4>Moomal Beauty Salon</h4>
+                            <p class="project-details">Beauty & Training Centre - Elegant website design for beauty services with booking functionality. Includes service showcase and contact integration.</p>
+                            <div class="project-buttons">
+                                <a href="https://moomalsalon.netlify.app/" target="_blank" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-external-link-alt"></i> Live Site
+                                </a>
+                                <a href="https://github.com/Mehreen3781" target="_blank" class="btn btn-primary">
+                                    <i class="fab fa-github"></i> View Code
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
+    </section>
+    <!-- Graphic Design Section -->
+    <section id="graphic-design" class="py-5 bg-light">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">🎨 My Graphic Design Work</h2>
+                    <p class="lead">Creative designs, logos, and visual branding for amazing clients.</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Client 1: Trendy Tribes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card">
+                        <div class="graphic-logo">
+                            <img src="trendy-tribes-poster.jpg" alt="Trendy Tribes Design" class="client-logo-graphic">
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>Trendy Tribes</h4>
+                            <p class="brand-details">Fashion & Lifestyle Brand - Complete visual identity including logo design, social media posts, banners, and promotional materials.</p>
+                            <div class="graphic-buttons">
+                                <a href="https://drive.google.com/drive/folders/1q0zr3J4cc_svN3JhoKPuwy2H8jfAu-AF" target="_blank" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-folder-open"></i> View Project
+                                </a>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#trendyTribesModal">
+                                    <i class="fas fa-images"></i> Show My Work
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-      <!-- Client 2 -->
-      <!-- <div class="bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-        <img src="images/trendy-tribes-design.jpg" alt="Trendy Tribes" class="w-full h-56 object-cover">
-        <div class="p-4">
-          <h3 class="font-semibold text-xl">Trendy Tribes</h3>
-          <p class="text-gray-500 text-sm mt-1">Fashion Branding Design</p>
+                <!-- Client 2: Moomal Beauty -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card">
+                        <div class="graphic-logo">
+                            <img src="moomal-beauty-salon-logo.jpg.jpg" alt="Moomal Beauty Design" class="client-logo-graphic">
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>Moomal Beauty Salon</h4>
+                            <p class="brand-details">Beauty & Training Centre - Logo design, business cards, salon posters, and social media content for beauty services.</p>
+                            <div class="graphic-buttons">
+                                <a href="https://drive.google.com/drive/folders/1CuHWxh0e0TZcjLFnoZrKyPuA7DzUuUfU" target="_blank" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-folder-open"></i> View Project
+                                </a>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#moomalModal">
+                                    <i class="fas fa-images"></i> Show My Work
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Future Client Placeholder -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card coming-soon-card">
+                        <div class="graphic-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-palette"></i>
+                            </div>
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>Upcoming Projects</h4>
+                            <p class="brand-details">Exciting new graphic design projects coming soon. Stay tuned for amazing brand identities and creative designs!</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" disabled>
+                                    <i class="fas fa-clock"></i> Coming Soon
+                                </button>
+                                <button class="btn btn-primary" disabled>
+                                    <i class="fas fa-hourglass-half"></i> In Progress
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
+    </section>
 
-      <!-- Client 3 (Placeholder) -->
-      <!--
-      <div class="bg-white rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-        <img src="images/client3-design.jpg" alt="Client Name" class="w-full h-56 object-cover">
-        <div class="p-4">
-          <h3 class="font-semibold text-xl">Client Name</h3>
-          <p class="text-gray-500 text-sm mt-1">Design Type</p>
+    <!-- Modals for Design Galleries -->
+    <!-- Trendy Tribes Modal -->
+    <div class="modal fade" id="trendyTribesModal" tabindex="-1" aria-labelledby="trendyTribesModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="trendyTribesModalLabel">🎨 Trendy Tribes - Design Gallery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="trendyTribesCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="trendy-tribes-poster.jpg" class="d-block w-100 modal-image" alt="Trendy Tribes Design 1">
+                                <div class="carousel-caption">
+                                    <h5>Brand Logo & Identity</h5>
+                                </div>
+                            </div>
+                            <!-- 
+                            🎨 ADD YOUR DESIGN IMAGES HERE:
+                            1. Replace image sources with your actual design files
+                            2. Add more carousel-item divs for more images
+                            3. Update captions with your design descriptions
+                            
+                            Example:
+                            <div class="carousel-item">
+                                <img src="your-design-image.jpg" class="d-block w-100 modal-image" alt="Design Description">
+                                <div class="carousel-caption">
+                                    <h5>Your Design Title</h5>
+                                </div>
+                            </div>
+                            -->
+                            <div class="carousel-item">
+                                <img src="trendy-tribes-poster.jpg" class="d-block w-100 modal-image" alt="Trendy Tribes Design 2">
+                                <div class="carousel-caption">
+                                    <h5>Social Media Posts</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="trendy-tribes-poster.jpg" class="d-block w-100 modal-image" alt="Trendy Tribes Design 3">
+                                <div class="carousel-caption">
+                                    <h5>Marketing Materials</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#trendyTribesCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#trendyTribesCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      -->
-    <!-- </div>
-  </div>
-</section> -->
+    </div>
 
-<!-- ===================== Social Media Marketing Section ===================== -->
-<!-- <section id="social-media" class="py-16 bg-white">
-  <div class="max-w-6xl mx-auto px-6 text-center">
-    <h2 class="text-3xl font-bold mb-8 text-gray-800">📱 Social Media Marketing</h2>
-    <p class="text-gray-600 mb-10">Ad creatives, campaign posts, and social content that build engagement.</p>
-
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6"> -->
-      <!-- Client 1 -->
-      <!-- <div class="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-        <img src="images/trendy-tribes-marketing.jpg" alt="Trendy Tribes" class="w-full h-56 object-cover">
-        <div class="p-4">
-          <h3 class="font-semibold text-xl">Trendy Tribes</h3>
-          <p class="text-gray-500 text-sm mt-1">Social Media Marketing Campaigns</p>
+    <!-- Moomal Beauty Modal -->
+    <div class="modal fade" id="moomalModal" tabindex="-1" aria-labelledby="moomalModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="moomalModalLabel">💄 Moomal Beauty - Design Gallery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="moomalCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="moomal-beauty-salon-logo.jpg.jpg" class="d-block w-100 modal-image" alt="Moomal Beauty Design 1">
+                                <div class="carousel-caption">
+                                    <h5>Salon Logo Design</h5>
+                                </div>
+                            </div>
+                            <!-- Add more carousel items here -->
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#moomalCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#moomalCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div> -->
+    </div>
 
-      <!-- Client 2 (Placeholder) -->
-      <!--
-      <div class="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-        <img src="images/client2-marketing.jpg" alt="Client Name" class="w-full h-56 object-cover">
-        <div class="p-4">
-          <h3 class="font-semibold text-xl">Client Name</h3>
-          <p class="text-gray-500 text-sm mt-1">Social Ads & Promotions</p>
+    <!-- Awais Agency Modal - Hidden (Project Incomplete) -->
+    <!-- 
+    <div class="modal fade" id="awaisModal" tabindex="-1" aria-labelledby="awaisModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="awaisModalLabel">🚀 AwaisAgency8 - Design Gallery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="awaisCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="awaisagency.jpg" class="d-block w-100 modal-image" alt="Awais Agency Design 1">
+                                <div class="carousel-caption">
+                                    <h5>Agency Branding</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#awaisCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#awaisCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      -->
+    </div>
+    -->
 
-      <!-- Client 3 (Placeholder) -->
-      <!--
-      <div class="bg-gray-50 rounded-2xl shadow hover:shadow-lg transition duration-300 overflow-hidden">
-        <img src="images/client3-marketing.jpg" alt="Client Name" class="w-full h-56 object-cover">
-        <div class="p-4">
-          <h3 class="font-semibold text-xl">Client Name</h3>
-          <p class="text-gray-500 text-sm mt-1">Campaign Management</p>
+
+
+
+
+    <!-- Social Media Management Section -->
+    <section id="social-media" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-5">
+                    <h2 class="section-title">📱 Social Media Management</h2>
+                    <p class="lead">Creating engaging content and managing social media presence for brands.</p>
+                </div>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <!-- Current Client: Trendy Tribes -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="social-card">
+                        <div class="social-logo">
+                            <img src="trendy-tribes-poster.jpg" alt="Trendy Tribes Social Media" class="client-logo-social">
+                        </div>
+                        <div class="social-content text-center">
+                            <h4>Trendy Tribes</h4>
+                            <p class="social-details">Fashion & Lifestyle Brand - Complete social media management including content creation, post scheduling, engagement strategies, and brand awareness campaigns across Instagram, Facebook, and TikTok.</p>
+                            <div class="social-buttons">
+                                <a href="https://www.instagram.com/trendy-tribes" target="_blank" class="btn btn-outline-primary me-2">
+                                    <i class="fab fa-instagram"></i> View Page
+                                </a>
+                                <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#socialTrendyModal">
+                                    <i class="fas fa-images"></i> View Content
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Future Client Placeholder 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="social-card coming-soon-card">
+                        <div class="social-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-plus-circle"></i>
+                            </div>
+                        </div>
+                        <div class="social-content text-center">
+                            <h4>Your Next Client</h4>
+                            <p class="social-details">Ready to manage your social media presence? This spot is waiting for your brand to shine with engaging content and strategic growth.</p>
+                            <div class="social-buttons">
+                                <a href="#contact" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-handshake"></i> Work With Me
+                                </a>
+                                <button class="btn btn-primary" disabled>
+                                    <i class="fas fa-clock"></i> Coming Soon
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Future Client Placeholder 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="social-card coming-soon-card">
+                        <div class="social-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-rocket"></i>
+                            </div>
+                        </div>
+                        <div class="social-content text-center">
+                            <h4>Future Success Story</h4>
+                            <p class="social-details">This could be your brand's success story! Let's create amazing social media content that converts followers into customers and builds lasting relationships.</p>
+                            <div class="social-buttons">
+                                <a href="#contact" class="btn btn-outline-primary me-2">
+                                    <i class="fas fa-envelope"></i> Get Started
+                                </a>
+                                <button class="btn btn-primary" disabled>
+                                    <i class="fas fa-star"></i> Available
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Instructions for Future Updates -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="future-clients-info">
+                        <h5>🚀 Ready to Add More Clients?</h5>
+                        <p class="text-muted">Simply replace the placeholder cards with your new client information. Copy the structure from "Trendy Tribes" card and update the content!</p>
+                        
+                        <!-- 
+                        📋 TEMPLATE FOR NEW CLIENT:
+                        
+                        <div class="col-lg-4 col-md-6">
+                            <div class="social-card">
+                                <div class="social-logo">
+                                    <img src="your-client-logo.jpg" alt="Client Name" class="client-logo-social">
+                                </div>
+                                <div class="social-content text-center">
+                                    <h4>Your Client Name</h4>
+                                    <p class="social-details">Client description and social media services provided...</p>
+                                    <div class="social-buttons">
+                                        <a href="https://www.instagram.com/client-handle" target="_blank" class="btn btn-outline-primary me-2">
+                                            <i class="fab fa-instagram"></i> View Page
+                                        </a>
+                                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#clientModal">
+                                            <i class="fas fa-images"></i> View Content
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        -->
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-      -->
-    <!-- </div>
-  </div>
-</section> -->
+    </section>
+
+    <!-- Social Media Content Modal -->
+    <div class="modal fade" id="socialTrendyModal" tabindex="-1" aria-labelledby="socialTrendyModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="socialTrendyModalLabel">📱 Trendy Tribes - Social Media Content</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="socialTrendyCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="trendy-tribes-poster.jpg" class="d-block w-100 modal-image" alt="Social Media Post 1">
+                                <div class="carousel-caption">
+                                    <h5>Instagram Posts</h5>
+                                </div>
+                            </div>
+                            <!-- 
+                            📱 ADD YOUR SOCIAL MEDIA CONTENT HERE:
+                            1. Replace image sources with your actual social media posts
+                            2. Add more carousel-item divs for more content
+                            3. Update captions with your content descriptions
+                            
+                            Example:
+                            <div class="carousel-item">
+                                <img src="your-social-post.jpg" class="d-block w-100 modal-image" alt="Social Content">
+                                <div class="carousel-caption">
+                                    <h5>Facebook Campaign</h5>
+                                </div>
+                            </div>
+                            -->
+                            <div class="carousel-item">
+                                <img src="trendy-tribes-poster.jpg" class="d-block w-100 modal-image" alt="Social Media Post 2">
+                                <div class="carousel-caption">
+                                    <h5>Story Highlights</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="trendy-tribes-poster.jpg" class="d-block w-100 modal-image" alt="Social Media Post 3">
+                                <div class="carousel-caption">
+                                    <h5>Engagement Campaigns</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#socialTrendyCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#socialTrendyCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <!-- CV Section -->
     <!-- <section id="cv" class="py-5">
