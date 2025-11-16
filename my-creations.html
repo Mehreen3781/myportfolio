@@ -1,0 +1,367 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Creations - Maham Ahmed | Personal Design Showcase</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description"
+    content="Explore Maham Ahmed's personal creative designs including 11:11, 12:12, Blessed Friday and more inspirational artwork." />
+  <meta name="keywords"
+    content="graphic design, creative designs, 11:11 designs, blessed friday, personal artwork, Maham Ahmed designs" />
+  <meta name="author" content="Maham Ahmed" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="mehreen.jfif" />
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold d-flex align-items-center" href="index.html">
+                <img src="maham-logo.png" alt="Maham Ahmed Logo" class="navbar-logo me-2">
+                <span>Maham Ahmed</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="graphic.html">Graphics & Social Media</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="my-creations.html">My Creations</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.html#contact">Contact</a></li>
+                </ul>
+                <button class="btn btn-outline-primary ms-3" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-5" style="margin-top: 80px; background: linear-gradient(135deg, #f8f7ff 0%, #f3f1ff 50%, #ede9ff 100%);">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center mb-4">
+                    <h1 class="section-title">✨ My Personal Creations</h1>
+                    <p class="lead">Inspirational designs created from the heart - 11:11, 12:12, Blessed Friday & More</p>
+                    <p class="text-muted">These are my personal creative expressions that I love to share with the world.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Creations Gallery Section -->
+    <section id="creations-gallery" class="py-5">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Blessed Friday Design -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card">
+                        <div class="graphic-logo">
+                            <img src="bless-friday/BLESSED-friday.jpg" alt="Blessed Friday Design" class="client-logo-graphic">
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>🕌 Blessed Friday</h4>
+                            <p class="brand-details">Beautiful Islamic design celebrating the blessed day of Jummah with elegant typography and spiritual aesthetics.</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#blessedFridayModal">
+                                    <i class="fas fa-images"></i> View Design
+                                </button>
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-download"></i> Download
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 11:11 Design -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card">
+                        <div class="graphic-logo">
+                            <img src="11.11design/11-11.jpg" alt="11:11 Wishes Design" class="client-logo-graphic">
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>🕐 11:11 Wishes</h4>
+                            <p class="brand-details">Magical moment designs capturing the special 11:11 wish time with dreamy aesthetics and positive vibes.</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#elevenElevenModal">
+                                    <i class="fas fa-images"></i> View Design
+                                </button>
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-download"></i> Download
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 12:12 Design Placeholder -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card">
+                        <div class="graphic-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>🕛 12:12 Magic</h4>
+                            <p class="brand-details">Enchanting designs for the 12:12 moment with mystical elements and inspiring messages.</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" disabled>
+                                    <i class="fas fa-clock"></i> Coming Soon
+                                </button>
+                                <button class="btn btn-primary" disabled>
+                                    <i class="fas fa-hourglass-half"></i> In Progress
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Food Design -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card">
+                        <div class="graphic-logo">
+                            <img src="food-design/Kashmir-Sandwich.jpg" alt="Food Design" class="client-logo-graphic">
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>🍔 Food Designs</h4>
+                            <p class="brand-details">Delicious food menu designs and promotional posts for restaurants and food businesses with appetizing visuals.</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" data-bs-toggle="modal" data-bs-target="#foodDesignModal">
+                                    <i class="fas fa-images"></i> View Design
+                                </button>
+                                <button class="btn btn-primary">
+                                    <i class="fas fa-download"></i> Download
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Creations Placeholder 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card coming-soon-card">
+                        <div class="graphic-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-heart"></i>
+                            </div>
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>💝 Special Occasions</h4>
+                            <p class="brand-details">Designs for special occasions, celebrations, and meaningful moments to share with loved ones.</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" disabled>
+                                    <i class="fas fa-gift"></i> Coming Soon
+                                </button>
+                                <button class="btn btn-primary" disabled>
+                                    <i class="fas fa-sparkles"></i> New
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- More Creations Placeholder 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="graphic-card coming-soon-card">
+                        <div class="graphic-logo">
+                            <div class="placeholder-logo">
+                                <i class="fas fa-lightbulb"></i>
+                            </div>
+                        </div>
+                        <div class="graphic-content text-center">
+                            <h4>💡 Inspirational Quotes</h4>
+                            <p class="brand-details">Beautiful quote designs with motivational messages and artistic typography to inspire daily.</p>
+                            <div class="graphic-buttons">
+                                <button class="btn btn-outline-primary me-2" disabled>
+                                    <i class="fas fa-quote-left"></i> Coming Soon
+                                </button>
+                                <button class="btn btn-primary" disabled>
+                                    <i class="fas fa-fire"></i> Trending
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Instructions Section -->
+            <div class="row mt-5">
+                <div class="col-12 text-center">
+                    <div class="future-clients-info">
+                        <h5>🎨 Want to Add Your Designs?</h5>
+                        <p class="text-muted">Simply replace the placeholder cards with your actual design images. Upload your 11:11, 12:12, and other creative designs to showcase your personal artwork!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Modals for Design Galleries -->
+    
+    <!-- Blessed Friday Modal -->
+    <div class="modal fade" id="blessedFridayModal" tabindex="-1" aria-labelledby="blessedFridayModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="blessedFridayModalLabel">🕌 Blessed Friday - Design Gallery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="blessedFridayCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="bless-friday/BLESSED-friday.jpg" class="d-block w-100 modal-image" alt="Blessed Friday Design 1">
+                                <div class="carousel-caption">
+                                    <h5>Blessed Friday Design</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="bless-friday/blessed-friday.png" class="d-block w-100 modal-image" alt="Blessed Friday Design 2">
+                                <div class="carousel-caption">
+                                    <h5>Jummah Mubarak</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#blessedFridayCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#blessedFridayCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- 11:11 Wishes Modal -->
+    <div class="modal fade" id="elevenElevenModal" tabindex="-1" aria-labelledby="elevenElevenModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="elevenElevenModalLabel">🕐 11:11 Wishes - Design Gallery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="elevenElevenCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="11.11design/11-11.jpg" class="d-block w-100 modal-image" alt="11:11 Design 1">
+                                <div class="carousel-caption">
+                                    <h5>11:11 Wishes</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="11.11design/11-11-trendy-post.jpg" class="d-block w-100 modal-image" alt="11:11 Design 2">
+                                <div class="carousel-caption">
+                                    <h5>Trendy 11:11 Post</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="11.11design/11-11-u=slider-post.jpg" class="d-block w-100 modal-image" alt="11:11 Design 3">
+                                <div class="carousel-caption">
+                                    <h5>11:11 Slider Design</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="11.11design/11=11-logo.jpg" class="d-block w-100 modal-image" alt="11:11 Design 4">
+                                <div class="carousel-caption">
+                                    <h5>11:11 Logo</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="11.11design/11single-girl.jpg" class="d-block w-100 modal-image" alt="11:11 Design 5">
+                                <div class="carousel-caption">
+                                    <h5>11:11 Fashion Post</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#elevenElevenCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#elevenElevenCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Food Design Modal -->
+    <div class="modal fade" id="foodDesignModal" tabindex="-1" aria-labelledby="foodDesignModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="foodDesignModalLabel">🍔 Food Designs - Design Gallery</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="foodDesignCarousel" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="food-design/Kashmir-Sandwich.jpg" class="d-block w-100 modal-image" alt="Food Design 1">
+                                <div class="carousel-caption">
+                                    <h5>Kashmir Sandwich Menu</h5>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <img src="food-design/afb36992-8a55-48d6-872e-18c283460019.jpg" class="d-block w-100 modal-image" alt="Food Design 2">
+                                <div class="carousel-caption">
+                                    <h5>Food Promotional Post</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#foodDesignCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#foodDesignCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Call to Action Section -->
+    <section class="py-5 bg-light">
+        <div class="container text-center">
+            <h3 class="mb-4">💜 Love These Designs?</h3>
+            <p class="lead mb-4">Get custom designs created just for you! Whether it's for personal use or your brand, I can bring your vision to life.</p>
+            <div class="d-flex gap-3 justify-content-center flex-wrap">
+                <a href="index.html#contact" class="btn btn-primary btn-lg">
+                    <i class="fas fa-envelope"></i> Contact Me
+                </a>
+                <a href="graphic.html" class="btn btn-outline-primary btn-lg">
+                    <i class="fas fa-briefcase"></i> View Client Work
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+
+</html>
